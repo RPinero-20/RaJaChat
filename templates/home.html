@@ -1,0 +1,9 @@
+{% extends './base.html' %}
+
+{% block title %}Home{% endblock %}
+
+{% block body %}
+<h1>El gran Ch@t-O</h1>
+<h2>Bienvenido, {{ current_user.fullname }}</h2>
+<a href = "{{ url_for('logout') }}">Salir</a>
+{% endblock %}

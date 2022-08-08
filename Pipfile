@@ -1,0 +1,18 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+flask = "*"
+flask-login = "*"
+flask-wtf = "*"
+mysql-connector-python = {path = "./mysql_connector_python-8.0.29-py2.py3-none-any.whl"}
+colorama = "*"
+pylint = "*"
+
+[dev-packages]
+colorama = "*"
+
+[requires]
+python_version = "3.8"
