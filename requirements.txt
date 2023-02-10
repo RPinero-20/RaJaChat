@@ -3,3 +3,4 @@ flask-login = "*"
 flask-wtf = "*"
 colorama = "*"
 pylint = "*"
+mysql-connector-python = {path = "./mysql_connector_python-8.0.29-py2.py3-none-any.whl"}
